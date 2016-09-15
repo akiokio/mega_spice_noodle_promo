@@ -23,7 +23,27 @@
   height: auto;
   top: 473px;
   left: 741px;
-  transform: rotate(-3deg);
+  animation: slitly_move 1s infinite;
+}
+
+@keyframes slitly_move {
+  0% {
+    -ms-transform: skewX(0deg) rotate(-3deg); /* IE 9 */
+    -webkit-transform: skewX(0deg) rotate(-3deg); /* Safari */
+    transform: skewX(0deg) rotate(-3deg); /* Standard syntax */
+  }
+
+  50% {
+    -ms-transform: skewX(-5deg) rotate(-3deg); /* IE 9 */
+    -webkit-transform: skewX(-5deg) rotate(-3deg); /* Safari */
+    transform: skewX(-5deg) rotate(-3deg); /* Standard syntax */
+  }
+
+  100% {
+    -ms-transform: skewX(0deg) rotate(-3deg); /* IE 9 */
+    -webkit-transform: skewX(0deg) rotate(-3deg); /* Safari */
+    transform: skewX(0deg) rotate(-3deg); /* Standard syntax */
+  }
 }
 
 .shadow_01 {
@@ -188,22 +208,60 @@
   width: 11px;
 }
 
-.chopstick_01 {
+.chopsticks {
   position: absolute;
   z-index: 3;
+  top: 145px;
+  left: 625px;
+  width: 340px;
+  height: 360px;
+  overflow: hidden;
+  border-radius: 10%;
+
+  -webkit-transition: all 500ms cubic-bezier(0.190, 0.010, 0.245, 1); /* older webkit */
+  -webkit-transition: all 500ms cubic-bezier(0.190, 0.010, 0.245, 1.145);
+     -moz-transition: all 500ms cubic-bezier(0.190, 0.010, 0.245, 1.145);
+       -o-transition: all 500ms cubic-bezier(0.190, 0.010, 0.245, 1.145);
+          transition: all 500ms cubic-bezier(0.190, 0.010, 0.245, 1.145);
+}
+
+.chopsticks:hover {
+  animation: hand_move 1s infinite;
+}
+
+@keyframes hand_move {
+  0% {
+    top: 145px;
+  }
+
+  50% {
+    top: 175px;
+  }
+
+  100% {
+    top: 145px;
+  }
+}
+
+.chopstick_01 {
+  position: relative;
+  z-index: 3;
   height: auto;
-  top: 73px;
-  left: 677px;
   width: 454px;
   overflow: hidden;
 }
 
 .chopstick_02 {
-  position: absolute;
+  position: relative;
   z-index: 3;
   height: auto;
-  top: 94px;
-  left: 677px;
   width: 454px;
   overflow: hidden;
+  top: -150px;
+}
+
+.noddles {
+  position: absolute;
+  top: 45px;
+  z-index: 4;
 }

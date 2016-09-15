@@ -1,0 +1,35 @@
+.floating {
+  animation: floating 2s infinite;
+}
+
+@keyframes floating {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    50% {
+      transform: rotate(7deg);
+    }
+
+    100% {
+      transform: rotate(0deg);
+    }
+}
+
+.floating_less {
+  animation: floating_less 2s infinite;
+}
+
+@keyframes floating_less {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    50% {
+      transform: rotate(2deg);
+    }
+
+    100% {
+      transform: rotate(0deg);
+    }
+}
