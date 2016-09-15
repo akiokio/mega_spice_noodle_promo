@@ -1,0 +1,170 @@
+.ad-box {
+  width: 960px;
+  height: 750px;
+  border: 3px solid black;
+
+  overflow: hidden;
+
+  margin: 0;
+  padding: 0;
+
+  background: #1a1a1a; /* Old browsers */
+  background: -moz-linear-gradient(top,  #1a1a1a 0%, #363636 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #1a1a1a 0%,#363636 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #1a1a1a 0%,#363636 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a1a1a', endColorstr='#363636',GradientType=0 ); /* IE6-9 */
+
+}
+
+.info {
+  position: absolute;
+  top: 30px;
+  left: 50px;
+}
+
+.title {
+  color: #cc3333;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 3em;
+}
+
+.details {
+  width: 300px;
+
+  color: #FFFFFF;
+  font-family: 'Lato', sans-serif;
+}
+
+.bottle {
+  position: absolute;
+  z-index: 1;
+  width: auto;
+  height: 380px;
+  top: 170px;
+  left: 380px;
+}
+
+.dynamics {
+  position: relative;
+}
+
+.bow {
+  position: absolute;
+  z-index: 2;
+  width: 460px;
+  height: auto;
+  top: 420px;
+  left: 480px;
+}
+
+.bow_shadow {
+  position: absolute;
+  z-index: 1;
+  width: 230px;
+  height: auto;
+  top: 680px;
+  left: 594px;
+}
+
+.sushi {
+  height: auto;
+
+  position: absolute;
+  z-index: 1;
+}
+
+.onigiri_1 {
+  width: 250px;
+
+  top: 470px;
+  left: 50px;
+
+  z-index: 2;
+}
+
+.onigiri_2 {
+  width: 250px;
+
+  top: 470px;
+  left: 190px;
+}
+
+.sushi_1 {
+  width: 243px;
+
+  top: 570px;
+  left: 240px;
+  z-index: 2;
+}
+
+.sushi_2 {
+  top: 610px;
+  left: 60px;
+  z-index: 2;
+  width: 230px;
+}
+
+.sushi_2_b {
+  opacity:0;
+  filter:alpha(opacity=0);
+
+  top: 633px;
+  left: 70px;
+  z-index: 2;
+  width: 205px;
+}
+
+.sushi_2_b:hover {
+
+}
+
+.sushi_3 {
+
+  top: 0px;
+  left: 0px;
+}
+
+.sushi_4 {
+
+  top: 0px;
+  left: 0px;
+}
+
+.sushi_5 {
+
+  top: 0px;
+  left: 0px;
+}
+
+.sushi_6 {
+
+  top: 0px;
+  left: 0px;
+}
+
+.sushi_7 {
+
+  top: 0px;
+  left: 0px;
+}
+
+.bottom-bg {
+  width: 960px;
+  height: 310px;
+
+  position: absolute;;
+  top: 450px;
+  z-index: 0;
+
+  background: #7a5b43; /* Old browsers */
+  background: -moz-linear-gradient(top,  #7a5b43 0%, #8c7565 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #7a5b43 0%,#8c7565 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #7a5b43 0%,#8c7565 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7a5b43', endColorstr='#8c7565',GradientType=0 ); /* IE6-9 */
+
+}
+
+
+.hide {
+  display: none;
+}
