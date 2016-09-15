@@ -134,7 +134,7 @@
 }
 
 .sushi_2_b:hover {
-  
+
 }
 
 .sushi_3 {
@@ -183,7 +183,27 @@
 
 }
 
-
 .hide {
   display: none;
+}
+
+.spice_level {
+  position: absolute;
+  top: 75px;
+  left: 600px;
+
+  margin: 0;
+  padding: 0;
+}
+
+.spice_level h2 {
+  color: #cc3333;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 1.5em;
+  margin: 0;
+}
+
+#spice_level_canvas {
+  margin: 0;
+  padding: 0;
 }
